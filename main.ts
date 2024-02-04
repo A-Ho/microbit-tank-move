@@ -1,11 +1,3 @@
-function 停止升降 () {
-    sensors.DDMmotor(
-    AnalogPin.P12,
-    0,
-    AnalogPin.P2,
-    0
-    )
-}
 function 左轉 () {
     sensors.DDMmotor(
     AnalogPin.P15,
@@ -87,14 +79,6 @@ function 前進 () {
     195
     )
 }
-function 上升 () {
-    sensors.DDMmotor(
-    AnalogPin.P12,
-    0,
-    AnalogPin.P2,
-    165
-    )
-}
 function 停止 () {
     sensors.DDMmotor(
     AnalogPin.P15,
@@ -107,14 +91,6 @@ function 停止 () {
     0,
     AnalogPin.P14,
     0
-    )
-}
-function 下降 () {
-    sensors.DDMmotor(
-    AnalogPin.P12,
-    1,
-    AnalogPin.P2,
-    165
     )
 }
 let 共用速度 = 0
